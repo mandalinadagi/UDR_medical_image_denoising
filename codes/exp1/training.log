@@ -1,0 +1,3 @@
+INFO:root:Total Parameters: 24651822
+INFO:root:Number of Trainable Parameters: 24651822
+INFO:root:Starting Test Loss: tensor(0.8457, device='cuda:0')
