@@ -2,6 +2,7 @@ import numpy as np
 import torch
 import torch.nn as nn
 import os, logging, piq
+from natsort import natsorted
 from misc import load_model, save_model, parameters_count, evaluation, evaluation_with_img_saving, seed_torch
 from dataloader import denoiser_dataset_loader
 from tqdm import tqdm
@@ -113,19 +114,3 @@ for epoch in range(total_epochs):
             starting_test_loss = test_loss
             logging.info("-----------------New Best----------------")
 
-img_names = natsorted(sorted(glob.glob(in_file_path_valid + "/*.png"), key=len))
-evaluation_with_sr_saving(model, valid_loader, l1_loss, tv_loss, result_path, dataset_name, img_names, device)
-
-
-######### only for testing the generalizability of the model
-
-result_path_ct          = './predictions/ct/'
-os.makedirs(result_path_ct, exist_ok=True)
-
-in_file_path_valid_ct         = '/kuacc/users/ckorkmaz14/UDR_medical_image_denoising/data/ct_noisy/03/'
-out_file_path_valid_ct        = '/kuacc/users/ckorkmaz14/UDR_medical_image_denoising/data/ct_images_gt/'
-valid_loader_ct = denoiser_dataset_loader(in_path = in_file_path_valid_ct, out_path = out_file_path_valid_ct, 
-                                 bs=evaluation_batch_size, s=scale, ps=training_patch_size, trn_flag=False, shuffle_flag=False)
-                                
-img_names = natsorted(sorted(glob.glob(in_file_path_valid_ct + "/*.png"), key=len))
-evaluation_with_sr_saving(model, valid_loader_ct, l1_loss, tv_loss, result_path_ct, dataset_name, img_names, device)

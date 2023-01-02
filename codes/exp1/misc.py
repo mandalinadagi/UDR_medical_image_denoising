@@ -1,4 +1,4 @@
-import random, numpy, torch, os, imageio
+import random, numpy, torch, os, imageio, logging   
 from tqdm import tqdm
 import matplotlib.pyplot as plt
 
@@ -49,20 +49,24 @@ def evaluation(model, valid_loader, l1_loss, tv_loss, device):
         test_loss /= len(valid_loader)
     return test_loss
 
-def evaluation_with_img_saving(model, valid_loader, l1_loss, tv_loss, result_path, dataset_name, img_names, device):
+def evaluation_with_img_saving(model, valid_loader, result_path, img_names, device, crop):
     model.eval()
     with torch.no_grad():
         for i, (input_img, output_img) in enumerate(tqdm(valid_loader)):
+            if crop: 
+                input_img = input_img[:,:,:512,:512]
+                output_img = output_img[:,:,:512,:512]
 
             input_img       = input_img.to(device).float()                   
             output_img      = output_img.to(device).float()
+
             mask_prediction, img_prediction = model(input_img)
 
-            img_prediction     = img_prediction[0].permute(1,2,0).detach().cpu().numpy()
+            img_prediction  = img_prediction[0].permute(1,2,0).detach().cpu().numpy()
             img_prediction_out = numpy.round((img_prediction*255)).clip(0,255).astype('uint8')
 
             img_name   = (img_names[i].split('/')[-1]).split(".")[0] 
-            imageio.imsave(result_path + dataset_name + '/' + img_name +'_UDR.png', img_prediction_out)
+            imageio.imsave(result_path + img_name +'_UDR.png', img_prediction_out)
 
 
 # https://discuss.pytorch.org/t/check-gradient-flow-in-network/15063/7
