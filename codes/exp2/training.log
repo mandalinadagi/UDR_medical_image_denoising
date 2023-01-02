@@ -1,0 +1,9 @@
+INFO:root:Total Parameters: 558336
+INFO:root:Number of Trainable Parameters: 558336
+INFO:root:Starting Test Loss: tensor(0.1497, device='cuda:0')
+INFO:root:Epoch:   0
+INFO:root:Loss L1 Img: tensor(0.0590, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Eval Epoch: 0
+INFO:root:Test Loss:  tensor(0.0466, device='cuda:0')
+INFO:root:-----------------New Best----------------

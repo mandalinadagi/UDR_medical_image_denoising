@@ -56,3 +56,4 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/kuacc/users/ckorkmaz14/miniconda3/lib/
 source /kuacc/users/ckorkmaz14/py_venvs/cansu/bin/activate
 nvidia-smi
 python train.py
+python test.py

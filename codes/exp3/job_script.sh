@@ -24,7 +24,7 @@
 
 # -= Resources =-
 #
-#SBATCH --job-name=dncnn
+#SBATCH --job-name=01tv+denoiser
 #SBATCH --nodes=1
 #SBATCH --ntasks=5
 #SBATCH --partition=ai
