@@ -30,7 +30,7 @@ def parameters_count(model):
     print("Total parameters : {}. Trainable parameters : {}".format(total, trainable))
     return total, trainable
 
-def evaluation(model, valid_loader, l1_loss, device):
+def evaluation(model, valid_loader, l1_loss, tv_loss, device):
     test_loss = 0
     model.eval()
     with torch.no_grad():
@@ -38,10 +38,12 @@ def evaluation(model, valid_loader, l1_loss, device):
 
             input_img       = input_img.to(device).float()                   
             output_img      = output_img.to(device).float()
-            img_prediction = model(input_img)
+            mask_prediction, img_prediction = model(input_img)
 
+            loss_tv_mask  = tv_loss(mask_prediction)
             loss_l1       = l1_loss(img_prediction, output_img)
-            test_loss       += loss_l1
+            loss          = 0.1 * loss_tv_mask + loss_l1
+            test_loss       += loss
 
 
         test_loss /= len(valid_loader)
@@ -58,7 +60,7 @@ def evaluation_with_img_saving(model, valid_loader, result_path, img_names, devi
             input_img       = input_img.to(device).float()                   
             output_img      = output_img.to(device).float()
 
-            img_prediction = model(input_img)
+            mask_prediction, img_prediction = model(input_img)
 
             img_prediction  = img_prediction[0].permute(1,2,0).detach().cpu().numpy()
             img_prediction_out = numpy.round((img_prediction*255)).clip(0,255).astype('uint8')

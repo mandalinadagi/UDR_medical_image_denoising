@@ -17,7 +17,7 @@ virtual memory          (kbytes, -v) unlimited
 file locks                      (-x) unlimited
 
 ===============================================================================
-Mon Jan  2 15:36:27 2023       
+Mon Jan  9 15:04:44 2023       
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 470.57.02    Driver Version: 470.57.02    CUDA Version: 11.4     |
 |-------------------------------+----------------------+----------------------+
@@ -26,7 +26,7 @@ Mon Jan  2 15:36:27 2023
 |                               |                      |               MIG M. |
 |===============================+======================+======================|
 |   0  Tesla K80           Off  | 00000000:2A:00.0 Off |                  Off |
-| N/A   26C    P0    53W / 149W |      0MiB / 12206MiB |      0%      Default |
+| N/A   25C    P0    54W / 149W |      0MiB / 12206MiB |      0%      Default |
 |                               |                      |                  N/A |
 +-------------------------------+----------------------+----------------------+
                                                                                
@@ -38,8 +38,8 @@ Mon Jan  2 15:36:27 2023
 |  No running processes found                                                 |
 +-----------------------------------------------------------------------------+
 Working with device: cuda
-Total parameters : 24651822. Trainable parameters : 24651822
-tensor(0.9687, device='cuda:0')
+Total parameters : 6272526. Trainable parameters : 6272526
+tensor(0.4156, device='cuda:0')
 
 Epoch: 0
 
@@ -184,163 +184,3 @@ Epoch: 46
 
 Epoch: 47
 
-
-Epoch: 48
-
-
-Epoch: 49
-
-
-Epoch: 50
-
-
-Epoch: 51
-
-
-Epoch: 52
-
-
-Epoch: 53
-
-
-Epoch: 54
-
-
-Epoch: 55
-
-
-Epoch: 56
-
-
-Epoch: 57
-
-
-Epoch: 58
-
-
-Epoch: 59
-
-
-Epoch: 60
-
-
-Epoch: 61
-
-
-Epoch: 62
-
-
-Epoch: 63
-
-
-Epoch: 64
-
-
-Epoch: 65
-
-
-Epoch: 66
-
-
-Epoch: 67
-
-
-Epoch: 68
-
-
-Epoch: 69
-
-
-Epoch: 70
-
-
-Epoch: 71
-
-
-Epoch: 72
-
-
-Epoch: 73
-
-
-Epoch: 74
-
-
-Epoch: 75
-
-
-Epoch: 76
-
-
-Epoch: 77
-
-
-Epoch: 78
-
-
-Epoch: 79
-
-
-Epoch: 80
-
-
-Epoch: 81
-
-
-Epoch: 82
-
-
-Epoch: 83
-
-
-Epoch: 84
-
-
-Epoch: 85
-
-
-Epoch: 86
-
-
-Epoch: 87
-
-
-Epoch: 88
-
-
-Epoch: 89
-
-
-Epoch: 90
-
-
-Epoch: 91
-
-
-Epoch: 92
-
-
-Epoch: 93
-
-
-Epoch: 94
-
-
-Epoch: 95
-
-
-Epoch: 96
-
-
-Epoch: 97
-
-
-Epoch: 98
-
-
-Epoch: 99
-
-
-Epoch: 100
-
-Working with device: cuda
