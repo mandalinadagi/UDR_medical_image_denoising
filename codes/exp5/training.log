@@ -195,3 +195,227 @@ INFO:root:Epoch:   46
 INFO:root:Loss TV Mask: tensor(0.0001, device='cuda:0', grad_fn=<MeanBackward1>)
 INFO:root:Loss L1 Img: tensor(0.0169, device='cuda:0', grad_fn=<MeanBackward0>)
 INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   47
+INFO:root:Loss TV Mask: tensor(0.0002, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0197, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   48
+INFO:root:Loss TV Mask: tensor(0.0001, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0171, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   49
+INFO:root:Loss TV Mask: tensor(0.0001, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0221, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   50
+INFO:root:Loss TV Mask: tensor(0.0001, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0135, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Eval Epoch: 50
+INFO:root:Test Loss:  tensor(0.0161, device='cuda:0')
+INFO:root:-----------------New Best----------------
+INFO:root:Epoch:   51
+INFO:root:Loss TV Mask: tensor(0.0001, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0151, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   52
+INFO:root:Loss TV Mask: tensor(9.3619e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0191, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   53
+INFO:root:Loss TV Mask: tensor(0.0001, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0228, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   54
+INFO:root:Loss TV Mask: tensor(9.6628e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0166, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   55
+INFO:root:Loss TV Mask: tensor(0.0001, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0159, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   56
+INFO:root:Loss TV Mask: tensor(0.0001, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0143, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   57
+INFO:root:Loss TV Mask: tensor(0.0001, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0168, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   58
+INFO:root:Loss TV Mask: tensor(8.0577e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0181, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   59
+INFO:root:Loss TV Mask: tensor(0.0001, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0233, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   60
+INFO:root:Loss TV Mask: tensor(0.0001, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0208, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   61
+INFO:root:Loss TV Mask: tensor(0.0001, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0174, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   62
+INFO:root:Loss TV Mask: tensor(0.0001, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0246, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   63
+INFO:root:Loss TV Mask: tensor(0.0002, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0229, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   64
+INFO:root:Loss TV Mask: tensor(9.9053e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0167, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   65
+INFO:root:Loss TV Mask: tensor(6.0057e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0187, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   66
+INFO:root:Loss TV Mask: tensor(0.0001, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0237, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   67
+INFO:root:Loss TV Mask: tensor(8.4371e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0194, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   68
+INFO:root:Loss TV Mask: tensor(0.0001, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0199, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   69
+INFO:root:Loss TV Mask: tensor(8.8923e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0223, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   70
+INFO:root:Loss TV Mask: tensor(0.0001, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0232, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   71
+INFO:root:Loss TV Mask: tensor(0.0001, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0158, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   72
+INFO:root:Loss TV Mask: tensor(8.8180e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0275, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   73
+INFO:root:Loss TV Mask: tensor(0.0001, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0197, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   74
+INFO:root:Loss TV Mask: tensor(0.0001, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0159, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0004
+INFO:root:Epoch:   75
+INFO:root:Loss TV Mask: tensor(4.9050e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0131, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0002
+INFO:root:Eval Epoch: 75
+INFO:root:Test Loss:  tensor(0.0155, device='cuda:0')
+INFO:root:-----------------New Best----------------
+INFO:root:Epoch:   76
+INFO:root:Loss TV Mask: tensor(5.8035e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0166, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0002
+INFO:root:Epoch:   77
+INFO:root:Loss TV Mask: tensor(8.4166e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0138, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0002
+INFO:root:Epoch:   78
+INFO:root:Loss TV Mask: tensor(4.2619e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0109, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0002
+INFO:root:Epoch:   79
+INFO:root:Loss TV Mask: tensor(4.5078e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0165, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0002
+INFO:root:Epoch:   80
+INFO:root:Loss TV Mask: tensor(8.4636e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0212, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0002
+INFO:root:Epoch:   81
+INFO:root:Loss TV Mask: tensor(6.3043e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0183, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0002
+INFO:root:Epoch:   82
+INFO:root:Loss TV Mask: tensor(4.1538e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0129, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0002
+INFO:root:Epoch:   83
+INFO:root:Loss TV Mask: tensor(5.7421e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0119, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0002
+INFO:root:Epoch:   84
+INFO:root:Loss TV Mask: tensor(5.2944e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0174, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0002
+INFO:root:Epoch:   85
+INFO:root:Loss TV Mask: tensor(1.0949e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0177, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0001
+INFO:root:Epoch:   86
+INFO:root:Loss TV Mask: tensor(8.5874e-06, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0149, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0001
+INFO:root:Epoch:   87
+INFO:root:Loss TV Mask: tensor(2.2250e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0246, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0001
+INFO:root:Epoch:   88
+INFO:root:Loss TV Mask: tensor(2.5068e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0183, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0001
+INFO:root:Epoch:   89
+INFO:root:Loss TV Mask: tensor(1.8971e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0174, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0001
+INFO:root:Epoch:   90
+INFO:root:Loss TV Mask: tensor(2.1532e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0136, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0001
+INFO:root:Epoch:   91
+INFO:root:Loss TV Mask: tensor(2.7800e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0113, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0001
+INFO:root:Epoch:   92
+INFO:root:Loss TV Mask: tensor(2.1072e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0204, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0001
+INFO:root:Epoch:   93
+INFO:root:Loss TV Mask: tensor(4.0874e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0114, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0001
+INFO:root:Epoch:   94
+INFO:root:Loss TV Mask: tensor(2.4308e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0164, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0001
+INFO:root:Epoch:   95
+INFO:root:Loss TV Mask: tensor(2.6335e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0139, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0001
+INFO:root:Epoch:   96
+INFO:root:Loss TV Mask: tensor(2.0972e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0213, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0001
+INFO:root:Epoch:   97
+INFO:root:Loss TV Mask: tensor(2.3592e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0213, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0001
+INFO:root:Epoch:   98
+INFO:root:Loss TV Mask: tensor(2.2733e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0222, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0001
+INFO:root:Epoch:   99
+INFO:root:Loss TV Mask: tensor(3.3459e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0183, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0001
+INFO:root:Epoch:   100
+INFO:root:Loss TV Mask: tensor(2.2792e-05, device='cuda:0', grad_fn=<MeanBackward1>)
+INFO:root:Loss L1 Img: tensor(0.0196, device='cuda:0', grad_fn=<MeanBackward0>)
+INFO:root:Last LR: 0.0001
+INFO:root:Eval Epoch: 100
+INFO:root:Test Loss:  tensor(0.0157, device='cuda:0')
